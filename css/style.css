@@ -1,0 +1,113 @@
+body {
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ocupa al menos el 100% de la altura del viewport */
+}
+
+.main{
+    flex-grow: 1;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+
+header a {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+}
+
+.bi {
+    font-size: 2em;
+    color: black;
+    transition: color 0.3s;
+}
+
+.bi:hover {
+    color: #546b85;
+}
+
+.btn {
+    font-family: "Poppins", sans-serif;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 10px;
+    align-items: center;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 12px;
+}
+
+.border{
+    border: 2px solid #555;
+    padding: 15px;
+    margin: 10px auto;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* INICIO */
+#contenido {
+    border: 2px solid #555;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#contenido a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#contenido a:hover {
+    color: rgb(78, 130, 189);
+    transition: 0.3s;
+}
+
+/* EJERCICIO 1 */
+#borde1{
+    padding-top: 0;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+} 
+
+/* EJERCICIO 2 */
+
+/* EJERCICIO 3 */
+#gatitoZzz {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #333;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* EJERCICIO 4 */
+
+/* EJERCICIO 5 */
